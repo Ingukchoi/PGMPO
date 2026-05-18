@@ -1,5 +1,7 @@
 <h1 align="center">
-Preference-Guided Multi-Policy Optimization for Flexible Job Shop Scheduling
+Preference-Guided Multi-Policy Optimization for 
+  
+Flexible Job Shop Scheduling
 </h1>
 
 <p align="center">
