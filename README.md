@@ -52,6 +52,6 @@ Run `train_model.py` to start training. The current training configuration is se
 Run `test_trained_model.py` to evaluate the trained model. The current test configuration is set for the **10×5 SD1 test instances**, while all other parameters follow the settings used in the paper. Test configurations can be easily modified in `params.py`.
 - Example:
   - `--data_source`: Source of testing instances (SD1 or SD2)
-  - `--model_source `: source of instances that the model trained on (SD1 or SD2)
+  - `--model_source `: Source of instances that the model trained on (SD1 or SD2)
   - `--test_data `: Instance names for testing.
   - `--test_model  `: Model names for testing.
