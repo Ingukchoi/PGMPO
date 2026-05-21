@@ -11,7 +11,7 @@ Flexible Job Shop Scheduling
 
 This repository is the official implementation of our paper **Preference-Guided Multi-Policy Optimization for Flexible Job Shop Scheduling**, accepted at 35th International Joint Conference on Artificial Intelligence (IJCAI 2026). The code builds upon [DAN](https://github.com/wrqccc/fjsp-drl) repository.
 
-The paper reports experiments on SD1 and four benchmark datasets. This repository also supports training and evaluation on SD2. In our experiments, PGMPO consistently outperformed the original DAN trained on 10×5 instances, both in-distribution (10×5) and out-of-distribution (30×10 and 40×10).
+The paper reports experiments on SD1 and four benchmark datasets. This repository also supports training and evaluation on well-studied SD2 dataset. In our experiments, PGMPO consistently outperformed the original DAN trained on 10×5 instances, both in-distribution (10×5) and out-of-distribution (30×10 and 40×10).
 
 <p align="center">
   <img src="./framework.png" width="700">
