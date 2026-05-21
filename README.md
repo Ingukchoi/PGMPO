@@ -27,11 +27,11 @@ The paper reports experiments on SD1 and four benchmark datasets. This repositor
 - `tqdm==4.66.4`
 ---
 ### **File Introduction**
-- `data`: Stores test instances (BenchData, SD1, and SD2).
+- `data`: Stores test instances (BenchData, SD1, and SD2). Please unzip the file before use.
 
 - `model`: Provides the implementation of the proposed framework.
 
-- `or_solution`: Stores solutions obtained using Google OR-Tools.
+- `or_solution`: Stores solutions obtained using Google OR-Tools. Please unzip the file before use.
 
 - `test_results`: Stores test results.
 
