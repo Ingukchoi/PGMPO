@@ -65,3 +65,20 @@ Run `test_trained_model.py` to evaluate the trained model. The current test conf
   - `--model_source `: Source of instances that the model trained on (SD1 or SD2)
   - `--test_data `: Instance names for testing.
   - `--test_model  `: Model names for testing.
+
+---
+If you find our code valuable for your research, please cite:
+```bibtex
+@inproceedings{choi2026PGMPO,
+  title     = {Preference-Guided Multi-Policy Optimization for Flexible Job Shop Scheduling},
+  author    = {Choi, Inguk and Shin, Woo-Jin and Cho, Sang-Hyun and Kim, Hyun-Jung},
+  booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
+               Artificial Intelligence, {IJCAI-26}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  pages     = {6156--6165},
+  year      = {2026},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2026/685},
+  url       = {https://doi.org/10.24963/ijcai.2026/685},
+}
+```
