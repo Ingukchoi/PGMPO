@@ -22,14 +22,14 @@ Under the shift toward Industry 4.0, mass-customized manufacturing systems have 
 
 ## Quick Start
 
-### **Requirements**
+### ⚙️ **Requirements**
 - `python=3.10.14`
 - `torch==2.2.2`
 - `numpy==1.24.3`
 - `argparse==1.1`
 - `tqdm==4.66.4`
 ---
-### **File Introduction**
+### 🗂️ **File Introduction**
 - `data`: Stores test instances (BenchData, SD1, and SD2). Please unzip the file before use.
 
 - `model`: Provides the implementation of the proposed framework.
