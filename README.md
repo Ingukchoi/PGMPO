@@ -70,7 +70,7 @@ Run `test_trained_model.py` to evaluate the trained model. The current test conf
   - `--test_model  `: Model names for testing.
 
 ---
-If you find our code valuable for your research, please cite:
+📝 If you find our code valuable for your research, please cite:
 ```bibtex
 @inproceedings{choi2026PGMPO,
   title     = {Preference-Guided Multi-Policy Optimization for Flexible Job Shop Scheduling},
