@@ -54,14 +54,14 @@ Under the shift toward Industry 4.0, mass-customized manufacturing systems have 
 
 - `train_model.py`: Trains the DAN using PGMPO.
 ---
-### **Train**
+### 🏃 **Train**
 Run `train_model.py` to start training. The current training configuration is set for the **10×5 SD1 dataset**, while all other parameters follow the settings used in the paper. Training configurations can be easily modified in `params.py`.
 - Example:
   - `--n_j ` and `--n_m `: Number of jobs and machines for training.
   - `--data_source`: Dataset source for training (SD1 or SD2).
 
 ---
-### **Test**
+### 🏃‍♂️ **Test**
 Run `test_trained_model.py` to evaluate the trained model. The current test configuration is set for the **10×5 SD1 test instances**, while all other parameters follow the settings used in the paper. Test configurations can be easily modified in `params.py`.
 - Example:
   - `--data_source`: Source of testing instances (SD1 or SD2)
