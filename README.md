@@ -10,14 +10,17 @@ Flexible Job Shop Scheduling
 </p>
 
 >This repository is the official implementation of our paper **Preference-Guided Multi-Policy Optimization for Flexible Job Shop Scheduling**, accepted at 35th International Joint Conference on Artificial Intelligence (IJCAI 2026). The code builds upon [DAN](https://github.com/wrqccc/fjsp-drl) repository.
->
 >The paper reports experiments on SD1 and four benchmark datasets. This repository also supports training and evaluation on well-studied SD2 dataset. In our experiments, PGMPO consistently outperformed the original DAN trained on 10×5 instances, both in-distribution (10×5) and out-of-distribution (30×10 and 40×10).
 
 <p align="center">
   <img src="./framework.png" width="700">
 </p>
 
-# **Quick Start**
+## Abstract
+
+Under the shift toward Industry 4.0, mass-customized manufacturing systems have introduced complex scheduling problems, such as the Flexible Job Shop Scheduling Problem (FJSSP). Recent Deep Reinforcement Learning (DRL)-based heuristics have shown promise, yet existing methods often suffer from two key limitations: they typically rely on single-policy optimization, which limits exploration, and on imprecise reward functions, which fail to accurately reflect decision quality. To address these challenges simultaneously, we propose PGMPO (**P**reference-**G**uided **M**ulti-**P**olicy **O**ptimization), a novel learning framework consisting of (1) a simple but effective multi-policy modeling approach that allows a single network to represent multiple decision-makers, and (2) a preference-driven model optimization method that effectively guides policies to learn diverse and specialized problem-solving strategies without the need for explicit reward functions. Experimental results demonstrate that PGMPO substantially boosts the performance of existing neural solvers across several benchmarks.
+
+## Quick Start
 
 ### **Requirements**
 - `python=3.10.14`
