@@ -7,6 +7,7 @@ Flexible Job Shop Scheduling
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python"></a>
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=pytorch&logoColor=white"></a>
+  <a href="https://ijcai.org/proceedings/2026/685"><img src="https://img.shields.io/badge/IJCAI%202026-Paper-B31B1B"></a>
 </p>
 
 >This repository is the official implementation of our paper **Preference-Guided Multi-Policy Optimization for Flexible Job Shop Scheduling**, accepted at 35th International Joint Conference on Artificial Intelligence (IJCAI 2026). The code builds upon [DAN](https://github.com/wrqccc/fjsp-drl) repository.
